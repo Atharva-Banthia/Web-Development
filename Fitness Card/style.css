@@ -1,0 +1,49 @@
+*{ box-sizing: border-box; }
+
+body{
+    font-family: Arial, sans-serif;
+  background-color: #f4f6f8;
+  color: #333333;
+  margin: 0;
+  padding: 20px;
+}
+
+.page-header{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.container{
+    margin: 0 auto;
+    max-width: 900px;
+}
+
+.routine-card{
+    width: 46%;
+    background-color: #ffffff;
+    padding: 20px;
+    border: 2px solid #2b6cb0;
+    border-radius: 8px;
+    margin: 2%;
+    float: left;
+}
+
+.routine-card h2{
+    color:2b6cb0;
+    margin-top: 0;
+}
+
+.focus{
+     font-weight: bold;
+  color: #555555;
+  margin-bottom: 12px;
+}
+
+.routine-card ul {
+  padding-left: 20px;
+  margin-bottom: 0;
+}
+
+.routine-card li {
+  margin-bottom: 6px;
+}
